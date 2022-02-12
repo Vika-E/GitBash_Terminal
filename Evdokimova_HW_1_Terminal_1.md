@@ -26,27 +26,27 @@ __Задание *__
 1) Отправить http запрос на сервер. 
 http://162.55.220.72:5005/terminal-hw-request === 
 
-_1.  curl http://162.55.220.72:5005/terminal-hw-request_
-_2.  curl  "http://162.55.220.72:5005/get_method?name=(Vika)&age=(35)"_
+1.  curl http://162.55.220.72:5005/terminal-hw-request
+2.  curl  "http://162.55.220.72:5005/get_method?name=(Vika)&age=(35)"
 
 2) Написать скрипт который выполнит автоматически пункты 3, 4, 5, 6, 7, 8, 13 ===
 
-__1. Создание файла__
-_touch my_script_
-_vim my_script_
-_i_
+___1. Создание файла___
+touch my_script
+vim my_script
+i
 
-__2. Сам скрипт__
-_#!/bin/bash_
-_cd new_folder_
-_mkdir f_4 f_5 f_6_
-_cd f_6_
-_touch t_file1.txt t_file2.txt t_file3.txt j_file1.json j_file2.json_
-_mkdir ff_1 ff_2 ff_3_
-_ls -la_
-_mv t_file1.txt t_file2.txt ../f_5_
+___2. Сам скрипт___
+#!/bin/bash
+cd new_folder
+mkdir f_4 f_5 f_6
+cd f_6
+touch t_file1.txt t_file2.txt t_file3.txt j_file1.json j_file2.json
+mkdir ff_1 ff_2 ff_3
+ls -la
+mv t_file1.txt t_file2.txt ../f_5
 
-__3. Запуск скрипта__
-_chmod ugo+x my_script_
-_./my_script_
+___3. Запуск скрипта___
+chmod ugo+x my_script
+./my_script
 
