@@ -32,21 +32,21 @@ http://162.55.220.72:5005/terminal-hw-request ===
 2) Написать скрипт который выполнит автоматически пункты 3, 4, 5, 6, 7, 8, 13 ===
 
 ___1. Создание файла___
-touch my_script
-vim my_script
-i
+touch my_script  
+vim my_script  
+i  
 
 ___2. Сам скрипт___
-#!/bin/bash
-cd new_folder
-mkdir f_4 f_5 f_6
-cd f_6
-touch t_file1.txt t_file2.txt t_file3.txt j_file1.json j_file2.json
-mkdir ff_1 ff_2 ff_3
-ls -la
-mv t_file1.txt t_file2.txt ../f_5
+#!/bin/bash  
+cd new_folder  
+mkdir f_4 f_5 f_6  
+cd f_6  
+touch t_file1.txt t_file2.txt t_file3.txt j_file1.json j_file2.json  
+mkdir ff_1 ff_2 ff_3  
+ls -la  
+mv t_file1.txt t_file2.txt ../f_5  
 
 ___3. Запуск скрипта___
-chmod ugo+x my_script
-./my_script
+chmod ugo+x my_script  
+./my_script  
 
